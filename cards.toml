@@ -1,0 +1,1397 @@
+[credits]
+
+  [[credits.card]]
+    id = 1
+    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    name = "ダイシャロン"
+    subject = []
+    condition = [
+      "このマスの効果以外で出席コマを置くことはできない。",
+      "授業フェイズ時: 自分のターンのプレイ直前に手札から1枚捨札にすることで、単位コマを1つ置くことができる。",
+    ]
+    effect = [
+      "授業フェイズ時: 自分のターン終了時に補充する手札の基準枚数を1枚増やす。",
+      "(この効果は「チホウガイロン」カードと重複する)",
+    ]
+    descriptions = "大学生活基礎"
+    flavor = [ "" ]
+
+  [[credits.card]]
+    id = 2
+    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    name = "ショゼミ"
+    subject = [ "すべての教科?" ]
+    condition = [
+      "1ターンに1枚以上出席コマを置くことはできない。",
+      "このマスは他のカードやマスの効果の対象にならない。",
+    ]
+    effect = [ "英語・体育以外の文系の教科カードを「チホウガイロン」マスに対してプレイするとき、情報カードとして扱うことができる。" ]
+
+  [[credits.card]]
+    id = 3
+    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    name = "ジョーホーリテラシー"
+    subject = [ "情報" ]
+    condition = [
+      "情報以外の教科カードを使って出席コマを置くことはできない。",
+      "1ターンに1枚以上出席コマを置くことはできない。",
+      "このマスは「チホウガイロン」カード以外のカードやマスの効果対象にならない。",
+    ]
+    effect = [ "6群のマスに対して教科カードをプレイするたびに、山札からカードを1枚引くことができる。" ]
+
+  [[credits.card]]
+    id = 4
+    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    name = "チホウガイロン"
+    subject = [ "総合" ]
+    condition = [
+      "総合以外の教科カードを使って出席コマを置くことはできない。",
+      "1ターンに1枚以上出席コマを置くことはできない。",
+      "このマスは「ショゼミ」カード以外のカードやマスの効果対象にならない。",
+    ]
+    effect = [
+      "授業フェイズ時: 自分のターン終了時に補充する手札の基準枚数を1枚増やす。",
+      "(この効果は「ダイシャロン」カードと重複する)",
+      "英語・体育以外の理系の教科カードを「ジョーホーリテラシー」マスに対してプレイするとき、情報カードとして扱うことができる。",
+    ]
+
+  [[credits.card]]
+    id = 5
+    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    name = "Listening & Reading 1"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 6
+    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    name = "Listening & Reading 2"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 7
+    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    name = "Listening & Reading 3"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 8
+    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    name = "Listening & Reading 4"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 9
+    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    name = "Speaking & Writing 1"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 10
+    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    name = "Speaking & Writing 2"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 11
+    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    name = "Speaking & Writing 3"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 12
+    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    name = "Speaking & Writing 4"
+    subject = [ "英語" ]
+
+  [[credits.card]]
+    id = 13
+    type = { name = "英語認定カード", subtype = "英認", subsubtype = "英認" }
+    name = "LRSW ニンテイ"
+    subject = []
+    condition = [
+      "このマスに評価チップを置くことはできない。",
+      "授業フェイズ時: 自分ターンのプレイ直後に任意の枚数の手札を捨札にすることでのみ、枚数分の単位コマを置くことができる。",
+      "成績フェイズ時: 置かれている単位コマの数に応じて「LRSW ニンテイ」単位カードが得られる。",
+      "(10枚以上: 1枚, 16枚以上: 2枚)",
+    ]
+    effect = [
+      "このカードを取得したとき、自分のコマボードのうち、まだ単位を取得していない英語カードに対応するマスのうち1つを選び、認定の評価チップを置く。",
+      "(このカードは英語のいずれかの単位の代替として扱われる。)",
+    ]
+
+  [[credits.card]]
+    id = 14
+    type = { name = "教養カード", subtype = "1 群", subsubtype = "1A" }
+    name = "レキシテキハッソー"
+    subject = [ "社会", "地理", "歴史" ]
+    effect = [ "授業フェイズ時: 自分のターンのプレイ直前に、手札から地理または歴史の教科カードを捨てることで、捨てた枚数分のカードを山札から引くことができる。" ]
+    description = [ "歴史学的視点から現代世界を見る" ]
+
+  [[credits.card]]
+    id = 15
+    type = { name = "教養カード", subtype = "1 群", subsubtype = "1B" }
+    name = "グロセイ"
+    subject = [ "社会", "政経" ]
+    effect = [ "政経の教科カードで 1C, 4F に出席コマを置くことができる。" ]
+    description = [ "国際的な視点で政治・経済を考える" ]
+
+  [[credits.card]]
+    id = 16
+    type = { name = "教養カード", subtype = "1 群", subsubtype = "1C" }
+    name = "グロシャ"
+    subject = [ "社会" ]
+    effect = [ "社会の教科カードをプレイしたとき、文系カードの山札からカードを1枚引くことができる。" ]
+    description = [ "現代社会を批判的に考える" ]
+
+  [[credits.card]]
+    id = 17
+    type = { name = "教養カード", subtype = "1 群", subsubtype = "1D" }
+    name = "オーヨーリンリ"
+    subject = [ "社会", "倫理" ]
+    condition = [ "「自然科学」特殊カードでも単位コマを置くことができる。" ]
+    description = [ "倫理的課題を事例から分析する" ]
+
+  [[credits.card]]
+    id = 18
+    type = { name = "教養カード", subtype = "1 群", subsubtype = "1E" }
+    name = "チキューシステム"
+    subject = [ "地学", "生物" ]
+    condition = [
+      "地学以外の教科カードを使って単位コマを置く場合、赤単位コマになる。",
+      "成績フェイズ時: フェイズの開始直後に「チキュー」から始まる単位マスに出席コマを2個まで置くことができる。",
+    ]
+    description = [ "地球と生物の営みについて学ぶ" ]
+
+  [[credits.card]]
+    id = 19
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2A" }
+    name = "テツガク"
+    subject = [ "倫理" ]
+    condition = [
+      "倫理以外の教科カードを使って出席コマを置くことはできない。",
+      "成績フェイズ時: フェイズの開始直後に自分のコマボードに置かれている任意の出席コマについて、合計3個まで出席コマが1個以上置かれている他のマスに移動させることができる。",
+    ]
+    description = [ "私とは" ]
+
+  [[credits.card]]
+    id = 20
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2B" }
+    name = "パソシン"
+    subject = [ "社会", "倫理" ]
+    effect = [ "社会の教科カードで 2A に出席コマを置くことができる。" ]
+    description = [ "性格に関する理論と研究方法を学ぶ" ]
+
+  [[credits.card]]
+    id = 21
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2C" }
+    name = "グロブン"
+    subject = [ "国語" ]
+    effect = [
+      "このカードを自分の場に出すとき、自分の場の他の単位カードを1枚選び、そのカードのすぐ下に重ねて置く。",
+      "重ねている単位カードの効果を2倍にできる。",
+    ]
+    description = [ "文学を通して世界を知る" ]
+
+  [[credits.card]]
+    id = 22
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2D" }
+    name = "ケンコーリテラシー"
+    subject = [ "生物" ]
+    effect = [ "「絶起」の効果を無効化できる。" ]
+    description = [ "健康について考え実践する方法を学ぶ" ]
+
+  [[credits.card]]
+    id = 23
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2E" }
+    name = "サイボー"
+    subject = [ "生物" ]
+    effect = [ "教科カードで 1E に出席コマを置くとき、さらに1個追加で置くことができる。" ]
+    description = [ "細胞の構造と機能を学ぶ" ]
+
+  [[credits.card]]
+    id = 25
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
+    name = "タイイクジツギ"
+    subject = [ "体育" ]
+    condition = [ "C以上の各評価に必要な単位コマの枚数がそれぞれ3枚ずつ減少する。" ]
+    effect = [
+      "体育の教科カードで 3F に出席コマを置くことができる。",
+      "このカードが自分の場に存在する場合、2F「タイイクガッシュク」の単位を取得することはできない。",
+      "この単位カードを2枚持っているとき、「バイト」効果を無効化できる。",
+      "このカードの単位数は0.5として扱われる。",
+    ]
+    description = [ "スポーツやトレーニングを行う" ]
+
+ [[credits.card]]
+    id = 26
+    type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
+    name = "タイイクガッシュク"
+    subject = []
+    condition = [ "「集中講義」カードの効果でのみ出席コマを置くことができ、上限解放マークの影響を受けない。" ]
+    effect = [
+      "このカードが自分の場に存在する場合、2F「タイイクジツギ」の単位を取得することはできない。",
+      "自分のカードのプレイ効果で自分の手札を公開したとき、山札からカードを1枚引くことができる。",
+    ]
+    description = [ "スポーツを短期集中で学ぶ" ]
+
+  [[credits.card]]
+    id = 27
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3B" }
+    name = "クリシン"
+    subject = [ "倫理" ]
+    effect = [
+      "授業フェイズ時: 自分のターンのプレイ後に山札から引くときに3枚多く引かなければならない。",
+      "また、その直後に手札から任意の3枚を捨札にしなければならない。"
+    ]
+    description = [ "批判的思考を身につける" ]
+
+  [[credits.card]]
+    id = 28
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3C" }
+    name = "チカク ト チノー"
+    subject = [ "社会", "倫理" ]
+    condition = [ "「自然科学」特殊カードでも単位コマを置くことができる。" ]
+    effect = [
+      "授業フェイズ時: 自分のターンのプレイ直前に、誰か一人の手札を見せてもらい、好きな枚数だけ自分の手札と交換することができる。",
+      "ただし、このとき相手にトラブルカードおよび「意識高い系」を渡すことはできない。",
+      "(1クォーター中に1回まで)",
+    ]
+    description = [ "人間の認知能力について知る" ]
+
+
+  [[credits.card]]
+    id = 29
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    name = "オンガクロン"
+    subject = [ "音楽", "歴史" ]
+    condition = [ "歴史の教科カードを使って単位コマを置く場合、赤単位コマになる。" ]
+    effect = [ "このカードが自分の場に存在する場合、他の3Eの単位を取得することはできない。" ]
+    description = [ "音楽芸術を知り、楽しみ方を探る" ]
+
+  [[credits.card]]
+    id = 30
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    name = "ビジュツロン"
+    subject = [ "美術", "歴史" ]
+    condition = [ "歴史の教科カードを使って単位コマを置く場合、赤単位コマになる。" ]
+    effect = [ "このカードが自分の場に存在する場合、他の3Eの単位を取得することはできない。" ]
+    description = [ "水彩画制作を通して絵を知る" ]
+
+  [[credits.card]]
+    id = 31
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    name = "タンキン"
+    subject = [ "工芸" ]
+    effect = [
+      "このカードが自分の場に存在する場合、他の3Eの単位を取得することはできない。",
+      "トラブルカードのプレイ時に山札からカードを2枚引く。",
+      "工芸カードが捨札になったとき、山札からカードを1枚引く。",
+    ]
+    description = [ "丼鍋制作を通して金属工芸を知る" ]
+
+  [[credits.card]]
+    id = 32
+    type = { name = "教養カード", subtype = "3 群", subsubtype = "3F" }
+    name = "タイイクガク"
+    subject = [ "保健" ]
+    effect = [ "保健の教科カードで 2D「ケンコーリテラシー」, 2F「タイイクジツギ」に出席コマを置くことができる。" ]
+    description = [ "健康教育学を学ぶ" ]
+
+  [[credits.card]]
+    id = 33
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4A" }
+    name = "キンノト"
+    subject = [ "社会", "地理", "歴史" ]
+    effect = [
+      "地理の教科カードのプレイ時に手札を1枚捨てることで、出席コマをさらに追加で1個置くことができる。",
+      "4C, 4D, 4E に出席コマを置くときに一度に1個しか置かなかった場合、山札からカードを1枚引くことができる。",
+    ]
+    description = [ "地元と世界の結びつきを知る" ]
+
+  [[credits.card]]
+    id = 34
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4B" }
+    name = "ニッポン ノ ムカシ"
+    subject = [ "社会", "地理", "歴史" ]
+    effect = [ "成績フェイズ時: フェイズの開始直後に 1A または 4A のどちらかに出席コマを2個まで置くことができる。" ]
+    description = [ "日本の歴史と文化の重要トピックを考える" ]
+
+  [[credits.card]]
+    id = 35
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4C" }
+    name = "イブンカリカイ"
+    subject = [ "社会", "地理", "倫理" ]
+    effect = [
+      "授業フェイズ時: 自分のターンの開始直後に、相手を一人選び、お互いの手札を伏せたまますべて交換することができる。",
+      "(1クォーター中に1回まで)",
+    ]
+    description = [ "異文化間で対話を行う基礎力をつける" ]
+
+  [[credits.card]]
+    id = 36
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4D" }
+    name = "タンキリューガク"
+    subject = []
+    condition = [
+      "「集中講義」カードの効果でのみ出席コマを置くことができ、上限解放マークの影響を受けない。",
+      "このマスの単位を獲得する場合は認定の評価チップが置かれる。",
+    ]
+    effect = [ "「国際交流」「留学」もしくは二外の教科カードのプレイ時に山札からカードを1枚引くことができる。" ]
+    description = [ "海外活動を通じて異文化に興味を持つ" ]
+
+  [[credits.card]]
+    id = 37
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4E" }
+    name = "コッキョー ヲ コエテ"
+    subject = [ "社会", "地理", "歴史" ]
+    effect = [ "1B, 1C, 2C, 4E, 4F のいずれかの単位を獲得した場合、山札からカードを2枚引くことができる。" ]
+    description = [ "国際的な課題と協力活動を考える" ]
+
+  [[credits.card]]
+    id = 38
+    type = { name = "教養カード", subtype = "4 群", subsubtype = "4F" }
+    name = "シャカイカダイカイケツ"
+    subject = [ "社会", "地理", "倫理" ]
+    effect = [ "「チホウガイロン」マスにおいて、C以上の各評価に必要な単位コマの枚数がそれぞれ2枚ずつ減少する。" ]
+    description = [ "地域社会の課題と解決方法を考える" ]
+
+  [[credits.card]]
+    id = 39
+    type = { name = "教養カード", subtype = "5 群", subsubtype = "5A" }
+    name = "カガクテキシコーヒョウゲン"
+    subject = [ "数学", "物理", "化学", "地学", "生物", "情報" ]
+    effect = [ "このカードを取得したとき、理系カードの山札からカードを2枚引くことができる。" ]
+    description = [ "科学的な思考と表現を身につける" ]
+
+  [[credits.card]]
+    id = 40
+    type = { name = "教養カード", subtype = "5 群", subsubtype = "5B" }
+    name = "トウケイガク ニューモン"
+    subject = [ "数学", "情報", "社会" ]
+    effect = [ "数学の教科カードで 4F に出席コマを置くことができる。" ]
+    description = [ "地域経済の分析を通して統計を知る" ]
+
+  [[credits.card]]
+    id = 41
+    type = { name = "教養カード", subtype = "5 群", subsubtype = "5D" }
+    name = "カンキョー ノ イマ ト ミライ"
+    subject = [ "社会", "地学", "生物" ]
+    effect = [
+      "社会の教科カードで 1C に出席コマを置くことができる。",
+      "社会の教科カードで 1E, 4E に出席コマを置くとき、さらに追加で1個置くことができる。",
+    ]
+    description = [ "地球環境問題への意識を高める" ]
+
+  [[credits.card]]
+    id = 42
+    type = { name = "教養カード", subtype = "5 群", subsubtype = "5E" }
+    name = "シャカイホショーロン"
+    subject = [ "社会", "政経" ]
+    condition = [ "倫理の教科カードを使って単位コマを置く場合、赤単位コマになる。" ]
+    effect = [
+      "成績フェイズ時: 出席コマの数を数える直前に自分のコマボード上の出席コマの合計が20個未満だった場合、山札から1枚ずつめくって、教科カードだった場合にプレイすることができる。",
+      "ただし、教科カード以外のカードだった場合や、教科カードでもプレイ条件を満たすことができない場合は、効果は発動せず捨札になる。",
+      "この効果は出席コマの合計が20個以上になるまで繰り返すことができる。",
+    ]
+    description = [ "社会保障のあり方を考える" ]
+
+  [[credits.card]]
+    id = 43
+    type = { name = "教養カード", subtype = "5 群", subsubtype = "5F" }
+    name = "ジンケン ト ジェンダー"
+    subject = [ "社会", "倫理" ]
+    effect = [ "4群・5群のマスに対して政経または倫理の教科カードをプレイしたとき、山札からカードを1枚引くことができる。" ]
+    description = [ "人権を意識した多文化共生を考える" ]
+
+  [[credits.card]]
+    id = 44
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
+    name = "ブツリ ニューモン"
+    subject = [ "物理" ]
+    description = [ "物理の基礎を学ぶ" ]
+
+  [[credits.card]]
+    id = 45
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
+    name = "バケガク ニューモン"
+    subject = [ "化学" ]
+    description = [ "化学の基礎を学ぶ" ]
+
+  [[credits.card]]
+    id = 46
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6B" }
+    name = "ジンコーチノー"
+    subject = [ "情報" ]
+    description = [ "人工知能の基礎を学ぶ" ]
+
+  [[credits.card]]
+    id = 47
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6C" }
+    name = ""
+    subject = [ "情報" ]
+    effect = [ "" ]
+
+  [[credits.card]]
+    id = 48
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6D" }
+    name = ""
+    subject = [ "美術" ]
+    effect = [ "" ]
+
+  [[credits.card]]
+    id = 49
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
+    name = "ロンリガク ニューモン"
+    subject = [ "数学" ]
+    description = [ "論理学の基礎を学ぶ" ]
+
+  [[credits.card]]
+    id = 50
+    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    name = "ニガイブンポー 1"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の文法を学ぶ" ]
+
+  [[credits.card]]
+    id = 51
+    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    name = "ニガイブンポー 2"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の文法を学ぶ" ]
+
+  [[credits.card]]
+    id = 52
+    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    name = "ニガイブンポー 3"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の文法を学ぶ" ]
+
+  [[credits.card]]
+    id = 53
+    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    name = "ニガイブンポー 4"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の文法を学ぶ" ]
+
+  [[credits.card]]
+    id = 54
+    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    name = "ニガイカイワ 1"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の会話を学ぶ" ]
+
+  [[credits.card]]
+    id = 55
+    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    name = "ニガイカイワ 2"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の会話を学ぶ" ]
+
+  [[credits.card]]
+    id = 56
+    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    name = "ニガイカイワ 3"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の会話を学ぶ" ]
+
+  [[credits.card]]
+    id = 57
+    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    name = "ニガイカイワ 4"
+    subject = [ "二外" ]
+    effect = [
+      "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。",
+      "(この効果は重複する)",
+    ]
+    description = [ "第二外国語の会話を学ぶ" ]
+
+  [[credits.card]]
+    id = 58
+    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    name = "ビセキブンガク 1"
+    subject = [ "数学" ]
+    description = [ "微積分学" ]
+
+  [[credits.card]]
+    id = 59
+    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    name = "ビセキブンガク 2"
+    subject = [ "数学" ]
+    condition = [ "「ビセキブンガク 1」カードを取得していない限り単位コマを置くことはできない。" ]
+    description = [ "微積分学" ]
+
+  [[credits.card]]
+    id = 60
+    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    name = "センケーダイスー 1"
+    subject = [ "数学" ]
+    description = [ "線形代数学" ]
+
+  [[credits.card]]
+    id = 61
+    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    name = "センケーダイスー 2"
+    subject = [ "数学" ]
+    condition = [ "「センケーダイスー 1」カードを取得していない限り単位コマを置くことはできない。" ]
+    description = [ "線形代数学" ]
+
+  [[credits.card]]
+    id = 62
+    type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
+    name = "ニュートンリキガク"
+    subject = [ "物理" ]
+    description = [ "(ニュートン力学?) 古典物理" ]
+
+  [[credits.card]]
+    id = 63
+    type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
+    name = "デンジキガク"
+    subject = [ "物理" ]
+    description = [ "電磁気学" ]
+
+  [[credits.card]]
+    id = 64
+    type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
+    name = "ムキ・ユウキ"
+    subject = [ "化学" ]
+    description = [ "無機化学・有機化学" ]
+
+  [[credits.card]]
+    id = 65
+    type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
+    name = "ブツリカガク"
+    subject = [ "化学", "物理" ]
+    condition = [ "物理の教科カードで一度に2個以上単位コマを置く場合、1個を除いて赤単位コマになる。" ]
+    description = [ "物理化学" ]
+
+  [[credits.card]]
+    id = 66
+    type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
+    name = "チキューブツリ"
+    subject = [ "地学", "物理" ]
+    condition = [ "物理の教科カードで一度に2個以上単位コマを置く場合、1個を除いて赤単位コマになる。" ]
+    description = [ "地球物理学・地質学・惑星科学?" ]
+
+  [[credits.card]]
+    id = 67
+    type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
+    name = "チキューカンキョー"
+    subject = [ "地学", "生物" ]
+    condition = [ "生物の教科カードで一度に2個以上単位コマを置く場合、1個を除いて赤単位コマになる。" ]
+    description = [ "自然地理学・環境科学?" ]
+
+[actions]
+
+  [[actions.card]]
+    id = 1
+    type = { name = "教科カード", subject = "数学" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    effect = [
+      "数学 +2",
+      "数学の教科カードの代わりに 情報 +1 もしくは 物理 +1 として扱える。",
+    ]
+
+  [[actions.card]]
+    id = 2
+    type = { name = "教科カード", subject = "物理" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    effect = [
+      "物理 +2",
+      "物理の教科カードの代わりに 化学 +1 として扱える。",
+    ]
+
+  [[actions.card]]
+    id = 3
+    type = { name = "教科カード", subject = "化学" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 0
+    effect = [
+      "化学 +2",
+      "化学の教科カードの代わりに 生物 +1 として扱える",
+    ]
+
+  [[actions.card]]
+    id = 4
+    type = { name = "教科カード", subject = "地学" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 0
+    effect = [ "地学 +2" ]
+
+  [[actions.card]]
+    id = 5
+    type = { name = "教科カード", subject = "生物" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 0
+    effect = [ "生物 +2" ]
+
+  [[actions.card]]
+    id = 6
+    type = { name = "教科カード", subject = "情報" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 0
+    effect = [ "情報 +2" ]
+
+  [[actions.card]]
+    id = 7
+    type = { name = "教科カード", subject = "英語" }
+    name = "授業に出席"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 5
+    effect = [
+      "英語 +2",
+      "英語の教科カードの代わりに 二外 +1 として扱える (留学の効果を受けない)",
+    ]
+
+  [[actions.card]]
+    id = 8
+    type = { name = "教科カード", subject = "国語" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 5
+    effect = [ "国語 +1" ]
+
+  [[actions.card]]
+    id = 9
+    type = { name = "教科カード", subject = "社会" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 5
+    effect = [ "社会 +1" ]
+
+  [[actions.card]]
+    id = 10
+    type = { name = "教科カード", subject = "歴史" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "歴史 +2" ]
+
+  [[actions.card]]
+    id = 11
+    type = { name = "教科カード", subject = "地理" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "地理 +2" ]
+
+  [[actions.card]]
+    id = 12
+    type = { name = "教科カード", subject = "倫理" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "倫理 +2" ]
+
+  [[actions.card]]
+    id = 13
+    type = { name = "教科カード", subject = "政経" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "政経 +2" ]
+
+  [[actions.card]]
+    id = 14
+    type = { name = "教科カード", subject = "総合" }
+    name = "授業に出席"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 4
+    effect = [ "総合 +1" ]
+
+  [[actions.card]]
+    id = 15
+    type = { name = "教科カード", subject = "音楽" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "音楽 +3" ]
+
+  [[actions.card]]
+    id = 16
+    type = { name = "教科カード", subject = "美術" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    effect = [ "美術 +3" ]
+
+  [[actions.card]]
+    id = 17
+    type = { name = "教科カード", subject = "工芸" }
+    name = "授業に出席"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 2
+    effect = [ "このカードはプレイしても何も起きない。" ]
+
+  [[actions.card]]
+    id = 18
+    type = { name = "教科カード", subject = "体育" }
+    name = "授業に出席"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [ "体育 +1" ]
+
+  [[actions.card]]
+    id = 19
+    type = { name = "教科カード", subject = "保健" }
+    name = "授業に出席"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    effect = [ "保健 +1" ]
+
+  [[actions.card]]
+    id = 20
+    type = { name = "教科カード", subject = "家庭" }
+    name = "授業に出席"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 0
+    effect = [ "家庭 +2" ]
+
+
+  [[actions.card]]
+    id = 21
+    type = { name = "教科カード", subject = "数学" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [
+      "数学 +3",
+      "数学の教科カードの代わりに 情報 +2 もしくは 物理 +2 として扱える",
+    ]
+
+  [[actions.card]]
+    id = 22
+    type = { name = "教科カード", subject = "物理" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [
+      "物理 +3",
+      "物理の教科カードの代わりに 化学 +2 として扱える",
+    ]
+
+  [[actions.card]]
+    id = 23
+    type = { name = "教科カード", subject = "化学" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [
+      "化学 +3",
+      "化学の教科カードの代わりに 生物 +2 として扱える",
+    ]
+
+  [[actions.card]]
+    id = 24
+    type = { name = "教科カード", subject = "地学" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "地学 +3" ]
+
+  [[actions.card]]
+    id = 25
+    type = { name = "教科カード", subject = "生物" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "生物 +3" ]
+
+  [[actions.card]]
+    id = 26
+    type = { name = "教科カード", subject = "情報" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "情報 +3" ]
+
+  [[actions.card]]
+    id = 27
+    type = { name = "教科カード", subject = "英語" }
+    name = "課題を提出"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 4
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [
+      "英語 +3",
+      "英語の教科カードの代わりに 二外 +2 として扱える (留学の効果を受けない)",
+    ]
+
+  [[actions.card]]
+    id = 28
+    type = { name = "教科カード", subject = "国語" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "国語 +2" ]
+
+  [[actions.card]]
+    id = 29
+    type = { name = "教科カード", subject = "社会" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 4
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "社会 +2" ]
+
+  [[actions.card]]
+    id = 30
+    type = { name = "教科カード", subject = "歴史" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "歴史 +3" ]
+
+  [[actions.card]]
+    id = 31
+    type = { name = "教科カード", subject = "地理" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "地理 +3" ]
+
+  [[actions.card]]
+    id = 32
+    type = { name = "教科カード", subject = "倫理" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "倫理 +3" ]
+
+  [[actions.card]]
+    id = 33
+    type = { name = "教科カード", subject = "政経" }
+    name = "課題を提出"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "政経 +3" ]
+
+  [[actions.card]]
+    id = 101
+    type = { name = "特殊カード" }
+    name = "ヤマ勘"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [ "コインを投げて表が出た場合、いずれかのマスに出席コマを+3 したあと、山札から1枚を手札に加える。" ]
+    flavor = [ "運は味方にも敵にもなる。" ]
+
+  [[actions.card]]
+    id = 102
+    type = { name = "特殊カード" }
+    name = "成績疑義"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    condition = [ "成績フェイズの開始直後にのみ手札からプレイできる。" ]
+    effect = [
+      "自分の手札を他のプレイヤーに公開する。",
+      "手札にインチキカードが1枚もない場合、自分のコマボードで既に出席コマが置かれているマスに対して、合計3個まで出席コマを追加できる。",
+      "手札にインチキカードが存在する場合、自分のコマボードから単位コマを合計3個取り除かなければならない。",
+    ]
+    flavor = [ "評価に納得できない場合は理由を求めてもよいのだ。" ]
+
+  [[actions.card]]
+    id = 103
+    type = { name = "特殊カード" }
+    name = "自然科学"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 0
+    effect = [ "物理/化学/地学/生物 いずれかの教科カードとして扱う。+2" ]
+    flavor = [ "学問はすべて science だ。" ]
+
+  [[actions.card]]
+    id = 104
+    type = { name = "特殊カード" }
+    name = "急な出欠確認"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [
+      "山札からカードを1枚引く。",
+      "その後、全員のコマボード上で赤出席コマが3個以上存在するすべてのマスについて、マス上のすべての出席コマを取り除く。",
+      "このカードがプレイされた場合、次の自分のターン開始時まで捨札にならない。",
+      "このカードがいずれかのプレイヤーの前に存在する場合、すべてのプレイヤーはインチキカードを使うことはできない。",
+    ]
+    flavor = [ "担当教員の戦略や気まぐれによって起きるのだ。" ]
+
+  [[actions.card]]
+    id = 105
+    type = { name = "特殊カード" }
+    name = "猛勉強"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 2
+    condition = [ "手札から同じ教科の教科カード2枚を捨札にする。" ]
+    effect = [
+      "捨札にした2枚の教科カードの+値の合計分だけ出席コマを置くことができる。",
+      "(捨札にした各教科カードのプレイ条件は無視できる。)",
+    ]
+
+  [[actions.card]]
+    id = 106
+    type = { name = "特殊カード" }
+    name = "過去問収集"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 1
+    condition = [ "プレイヤーの人数分だけ手札を捨札にする。" ]
+    effect = [
+      "全員の手札を公開する。",
+      "各プレイヤーの手札から1枚ずつ選んで自分の手札に加えなければならない。",
+    ]
+    flavor = [ "他人の力も頼りになる。" ]
+
+  [[actions.card]]
+    id = 107
+    type = { name = "特殊カード" }
+    name = "過去問交換"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [
+      "相手プレイヤーを一人選び、手札を見せてもらう。",
+      "相手の手札から任意のカード1枚を選んで自分の手札に加えたあと、自分の手札から任意のカード1枚を相手の手札に加える。",
+    ]
+    flavor = [ "情報収集にはギブアンドテイクも重要だ。" ]
+
+  [[actions.card]]
+    id = 108
+    type = { name = "特殊カード" }
+    name = "勉強"
+    numbers_in_rikei = 5
+    numbers_in_bunkei = 4
+    effect = [
+      "山札からカードを1枚引く。",
+      "引いたカードが教科カードだった場合は手札に加える。",
+      "教科カード以外だった場合は捨札にして、このカードの効果をもう一度繰り返す。",
+      "(このカードの効果中に理系カードまたは文系カードのいずれかが2回シャッフルされるまで)",
+    ]
+
+  [[actions.card]]
+    id = 109
+    type = { name = "特殊カード" }
+    name = "友達ネットワーク"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 2
+    effect = [
+      "教科を一つ宣言したあとに全員の手札を公開する。",
+      "全員の手札に存在する宣言した教科と同じ教科カードをすべて自分の手札とする。",
+      "自分以外のプレイヤーはとられた枚数分だけ山札からカードを引く。",
+    ]
+
+  [[actions.card]]
+    id = 110
+    type = { name = "特殊カード" }
+    name = "陰キャ"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードが自分の前に存在する場合、いずれかのプレイヤーの手札の公開が必要なカードをプレイすることはできず、また、自分の手札の公開が必要なカードの対象になることもできない。",
+    ]
+    flavor = [ "友達がいなくても生きていくことはできる。(修正)" ]
+
+  [[actions.card]]
+    id = 201
+    type = { name = "トラブルカード" }
+    name = "バイト"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 6
+    condition = [ "このカードはプレイできない。" ]
+    effect = [ "このカードが捨札に置かれた瞬間、自分のコマボードから出席コマを1個取り除かなければならない。" ]
+
+  [[actions.card]]
+    id = 202
+    type = { name = "トラブルカード" }
+    name = "絶起 (寝ブッチ?)"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードはプレイ以外で捨札にできない。",
+      "このカードは手番の開始時以外にプレイすることはできない。",
+      "自分の手札から2枚を選んで捨札にしなければならない。"
+    ]
+    flavor = [ "睡眠は重要だ。(修正)" ]
+
+  [[actions.card]]
+    id = 203
+    type = { name = "インチキカード" }
+    name = "ピ逃げ"
+    numbers_in_rikei = 4
+    numbers_in_bunkei = 4
+    effect = [
+      "このカードは1ターンに2回以上プレイできない。",
+      "いずれか1つのマスに赤出席コマを2個置かなければならない。",
+      "その後、山札からカードを1枚引く。"
+    ]
+    flavor = [ "講義室の端末に学生証をかざすことで出席となる授業も存在する。" ]
+
+  [[actions.card]]
+    id = 203
+    type = { name = "トラブルカード" }
+    name = "課題忘れ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "プレイ以外でこのカードが捨札になった瞬間にも同様に効果が発動する。",
+      "山札からカードを1枚引く。",
+      "その後、手札の「課題を提出」カードを1枚捨札にするか、自分のコマボードから出席コマを合計2つ取り除かなければならない。",
+    ]
+
+  [[actions.card]]
+    id = 204
+    type = { name = "トラブルカード" }
+    name = "学生証忘れ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    condition = [ "手札の教科カードを1枚捨札にする。" ]
+    effect = [
+      "このカードはプレイ以外で捨札にできない。",
+      "捨てた教科カードの教科に対応できるマスに赤出席コマを1個置くことができる。",
+    ]
+    flavor = [ "学生証がなければそこにいないのと同じ。" ]
+
+  [[actions.card]]
+    id = 205
+    type = { name = "トラブルカード" }
+    name = "諦めて寝る"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "授業フェイズの最後の自分のターンにのみプレイできる。",
+      "このカードはプレイ以外で捨札にできない。",
+      "手札をすべて捨札にしなければならない。",
+    ]
+
+  [[actions.card]]
+    id = 302
+    type = { name = "インチキカード" }
+    name = "カンペ"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "授業フェイズの最後の自分のターンにのみプレイできる。",
+      "単位コマが1個以上置かれている任意のマスに赤出席コマ2個、黒単位コマ3個を置くことができる。",
+    ]
+
+  [[actions.card]]
+    id = 401
+    type = { name = "特殊カード" }
+    name = "(ボツカード)"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 0
+    effect = [
+      "自分の手札を他のプレイヤーに公開する。",
+      "手札にインチキカードが1枚もない場合、全員のコマボード上の赤出席コマが3個以上存在するすべてのマスについて、赤出席コマを1つずつ奪い、自分のコマボード上のマスに置き直すことができる。",
+      "手札にインチキカードが存在する場合、自分のコマボードの赤単位コマをすべて取り除かなければならない。",
+    ]
+
+  [[actions.card]]
+    id = 402
+    type = { name = "特殊カード" }
+    name = "剽窃チェック"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "相手プレイヤーを一人選び、手札を公開する。",
+      "相手の手札にインチキカードが存在する場合、教科カード以外のすべての相手の手札を捨札にする。",
+      "インチキカードが存在しない場合、自分は手札を1枚捨てる。(手札がない場合は捨てなくてよい。)",
+    ]
+
+  [[actions.card]]
+    id = 403
+    type = { name = "特殊カード" }
+    name = "チクる"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    condition = [ "相手プレイヤーがインチキカードをプレイした瞬間のみプレイできる。" ]
+    effect = [ "相手プレイヤーがプレイしたインチキカードの効果を無効にして捨札にする。" ]
+
+  [[actions.card]]
+    id = 1001
+    type = { name = "特殊カード" }
+    name = "留学"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードが自分の前に存在する場合、自分の手札とプレイ中のすべての教科カードは英語として扱われ、自分に対する「学祭」カードの効果を無効化する。",
+    ]
+
+  [[actions.card]]
+    id = 1002
+    type = { name = "トラブルカード" }
+    name = "パンデミック"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードがいずれかのプレイヤーの前に存在する場合、すべてのプレイヤーは英語・二外の教科カードに加えて「徒歩通学」「自転車通学」「ピ逃げ」「博物館見学」「学祭」カードをプレイできない。",
+    ]
+
+  [[actions.card]]
+    id = 1003
+    type = { name = "特殊カード" }
+    name = "博物館見学"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードはプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードがプレイされたとき、美術、歴史、生物、工芸のいずれかの教科で単位コマを置くことができるマスに単位コマを3個置く。",
+      "このカードが自分の前に存在する場合、同じカードはプレイできず、生物の教科カードで「チキュウ」から始まる単位マスに出席コマを置くことはできない。",
+    ]
+    flavor = [ "一般教養の授業も座学やグループワークばかりではない。(修正)" ]
+
+  [[actions.card]]
+    id = 111
+    type = { name = "特殊カード" }
+    name = "鍛金1"
+    numbers_in_rikei = 0
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードはプレイされた場合、このターンの終了まで捨札にならない。",
+      "このカードがプレイされたとき、3E「タンキン」に対応するマスに出席コマを6個置くことができる。",
+      "このカードが自分の前に存在する場合、自分の手札とプレイ中のすべての教科カードは工芸として扱われる。",
+    ]
+    flavor = [ "丼鍋を作ろう。(修正)" ]
+
+  [[actions.card]]
+    id = 112
+    type = { name = "特殊カード" }
+    name = "鍛金2"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 0
+    condition = [ "このカード以外の手札をすべて捨札にする。" ]
+    effect = [ "3E「タンキン」に対応するマスに出席コマを6個 + 捨てた手札の枚数と同じ数だけ置く。" ]
+    flavor = [ "丼鍋を作ろう。(修正)" ]
+
+  [[actions.card]]
+    id = 206
+    type = { name = "トラブルカード" }
+    name = "履修抽選漏れ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "上限解放マークを所持していない場合、このカードはプレイ以外で捨札にできない。",
+      "授業フェイズ終了時にこのカードが自分の前に存在する場合、出席コマが存在する英語修行マス以外のマスを1つ選び、すべての出席コマを戻さなければならない。",
+    ]
+    flavor = [ "授業にも定員が存在する。" ]
+
+  [[actions.card]]
+    id = 117
+    type = { name = "特殊カード" }
+    name = "履修修正"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [
+      "自分のコマボード上で出席コマが2個以下のマスを1つ選び、すべての出席コマを別のマスに移動できる。",
+      "「履修抽選漏れ」カードが自分の前にある場合、何枚でも捨札にすることができる。",
+    ]
+    flavor = [ "1週目に参加してから履修するかどうか判断することも可能だ。" ]
+
+  [[actions.card]]
+    id = 113
+    type = { name = "特殊カード" }
+    name = "意識高い系"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードはプレイ以外で捨札にできない。",
+      "このカードが自分の前に存在する限り、自分は手札を公開し続けなければならない。",
+    ]
+    flavor = [ "重要なのは行動だ。" ]
+
+  [[actions.card]]
+    id = 114
+    type = { name = "特殊カード" }
+    name = "国際交流"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "1B, 1C, 2C, 4E, 4F のいずれかのマスに単位コマを2個置くことができる。",
+      "その後、山札からカードを1枚引く。",
+    ]
+
+
+  [[actions.card]]
+    id = 115
+    type = { name = "特殊カード" }
+    name = "徒歩登学"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードが自分の前に存在する場合、体育の教科カードをプレイするときに手札を1枚捨てることで、追加で +2 できる。",
+    ]
+
+  [[actions.card]]
+    id = 116
+    type = { name = "特殊カード" }
+    name = "自転車登学"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "このカードが自分の前に存在する場合、体育の教科カードをプレイするときに追加で +1 でき、また「遅刻」カードの効果を無効化できる。",
+    ]
+
+  [[actions.card]]
+    id = 207
+    type = { name = "トラブルカード" }
+    name = "遅刻"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    condition = [ "このカードはプレイできない。" ]
+    effect = [
+      "このカードが捨札に置かれた瞬間、自分の手札を1枚捨札にしなければならない。",
+      "手札が1枚も存在しない場合、自分のコマボードから黒出席コマを合計2個取り除かなければならない。",
+    ]
+
+  [[actions.card]]
+    id = 117
+    type = { name = "特殊カード" }
+    name = "魔剤"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [
+      "このカードがプレイされた場合、クォーター終了まで捨札にならない。",
+      "プレイされたときに山札から3枚引く。",
+      "このカードが自分の前に存在する場合、自分のターン終了時に山札から補充できるカードの枚数が1枚減る。",
+    ]
+    flavor = [ "カフェインは元気の前借りであることを忘れてはいけない。" ]
+
+  [[actions.card]]
+    id = 118
+    type = { name = "特殊カード" }
+    name = "大学祭"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    effect = [
+      "このカードがプレイされた場合、次の自分のターン開始時まで捨札にならない。",
+      "このカードがいずれかのプレイヤーの前に存在する限り、すべてのプレイヤーは教科カードをプレイしたときにコインを投げ、表が出た場合だけカードの効果を適用できる。",
+    ]
+    flavor = [ "大学祭は学生主体のお祭りだ。" ]
+
+  [[actions.card]]
+    id = 208
+    type = { name = "トラブルカード" }
+    name = "大雪"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "教科を1つ宣言してから山札のカードを1枚めくり捨札にする。",
+      "めくったカードが宣言した教科の教科カードだった場合、このカードは次の自分のターン開始時まで捨札にならない。",
+      "このカードがいずれかのプレイヤーの前に存在する限り、すべてのプレイヤーは教科カード・インチキカードをプレイできないが、「バイト」「絶起」「遅刻」「課題忘れ」「学生証忘れ」カードの効果を無効化する。",
+    ]
+    flavor = [ "大雪で休校になることはめったにないが、影響は大きい。" ]
+
+  [[actions.card]]
+    id = 209
+    type = { name = "トラブルカード" }
+    name = "クマ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    effect = [
+      "このカードはプレイ以外で捨札にできない。",
+      "このカードはプレイしても何も起きない。",
+    ]
+    flavor = [ "この大学でクマは日常なのだ。" ]
+
+  [[actions.card]]
+    id = 303
+    type = { name = "インチキカード" }
+    name = "コピペ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    condition = [ "手札を1枚捨札にする。" ]
+    effect = [
+      "このカードは授業フェイズの最後の自分のターンにプレイすることはできない。",
+      "相手のコマボードのマスのうち、置かれている出席コマが合計5個以下のマスを1つ指定する。",
+      "指定したマスと同じ自分のコマボードのマスについて、既に単位コマが置かれている場合に限り、黒出席コマと赤出席コマの個数を相手と同じにする。",
+    ]
+    flavor = [ "剽窃行為は犯罪にもなり得る。" ]
+
+  [[actions.card]]
+    id = 210
+    type = { name = "トラブルカード" }
+    name = "バス遅れ"
+    numbers_in_rikei = 2
+    numbers_in_bunkei = 2
+    flavor = [ "バスが時間通りに来ることは期待していない。" ]
+
+  [[actions.card]]
+    id = 119
+    type = { name = "特殊カード" }
+    name = "遠隔授業"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [
+      "このカードがプレイされた場合、次の自分のターン開始時まで捨札にならない。",
+      "このカードがいずれかのプレイヤーの前に存在する限り、すべてのプレイヤーは「友達ネットワーク」「ピ逃げ」「学生証忘れ」「留学」「博物館見学」「鍛金」「徒歩通学」「自転車通学」「大学祭」「クマ」をプレイできず、「バイト」を捨札に置くことができない。",
+      "指定したマスと同じ自分のコマボードのマスについて、既に単位コマが置かれている場合に限り、黒出席コマと赤出席コマの個数を相手と同じにする。",
+    ]
+    flavor = [ "授業形態は否応なしに改革されていくものだ。(修正)" ]
+
+  [[actions.card]]
+    id = 120
+    type = { name = "特殊カード" }
+    name = "集中講義"
+    numbers_in_rikei = 1
+    numbers_in_bunkei = 1
+    condition = [ "このカードは成績フェイズの開始直後にのみプレイできる。" ]
+    effect = [
+      "手札の教科カードを好きな枚数だけ捨札にすることができる。",
+      "捨札にした教科カードの+値の合計だけ 2F「タイイクガッシュク」または 4D 「タンキリューガク」マスに出席コマを置くことができる。(捨札にした教科カードのプレイ条件は無視できる。)",
+      "その後、捨札にした枚数分だけ山札からカードを引く。",
+      "このカードで出席コマを置くマスについては上限解放マークの影響を受けない。",
+    ]
+
+  [[actions.card]]
+    id = 121
+    type = { name = "特殊カード" }
+    name = "追加課題"
+    numbers_in_rikei = 3
+    numbers_in_bunkei = 3
+    effect = [ "自分のコマボード上で評価が保留になっていて単位コマが4個未満のマスを 1 つ選び、単位コマが合計で 4 個になるように黒単位コマを置く。" ]
