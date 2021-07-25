@@ -19,17 +19,6 @@
   [[credits.card]]
     id = 2
     type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
-    name = "ショゼミ"
-    subject = [ "すべての教科?" ]
-    condition = [
-      "1ターンに1枚以上出席コマを置くことはできない。",
-      "このマスは他のカードやマスの効果の対象にならない。",
-    ]
-    effect = [ "英語・体育以外の文系の教科カードを「チホウガイロン」マスに対してプレイするとき、情報カードとして扱うことができる。" ]
-
-  [[credits.card]]
-    id = 3
-    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
     name = "ジョーホーリテラシー"
     subject = [ "情報" ]
     condition = [
@@ -40,7 +29,7 @@
     effect = [ "6群のマスに対して教科カードをプレイするたびに、山札からカードを1枚引くことができる。" ]
 
   [[credits.card]]
-    id = 4
+    id = 3
     type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
     name = "チホウガイロン"
     subject = [ "総合" ]
@@ -52,59 +41,59 @@
     effect = [
       "授業フェイズ時: 自分のターン終了時に補充する手札の基準枚数を1枚増やす。",
       "(この効果は「ダイシャロン」カードと重複する)",
-      "英語・体育以外の理系の教科カードを「ジョーホーリテラシー」マスに対してプレイするとき、情報カードとして扱うことができる。",
+      "英語・体育・総合以外の理系の教科カードを「ジョーホーリテラシー」マスに対してプレイするとき、情報カードとして扱うことができる。",
     ]
 
   [[credits.card]]
-    id = 5
+    id = 4
     type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 1"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 6
+    id = 5
     type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 2"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 7
+    id = 6
     type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 3"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 8
+    id = 7
     type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 4"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 9
+    id = 8
     type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 1"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 10
+    id = 9
     type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 2"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 11
+    id = 10
     type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 3"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 12
+    id = 11
     type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 4"
     subject = [ "英語" ]
 
   [[credits.card]]
-    id = 13
+    id = 12
     type = { name = "英語認定カード", subtype = "英認", subsubtype = "英認" }
     name = "LRSW ニンテイ"
     subject = []
@@ -120,7 +109,7 @@
     ]
 
   [[credits.card]]
-    id = 14
+    id = 13
     type = { name = "教養カード", subtype = "1 群", subsubtype = "1A" }
     name = "レキシテキハッソー"
     subject = [ "社会", "地理", "歴史" ]
@@ -128,7 +117,7 @@
     description = [ "歴史学的視点から現代世界を見る" ]
 
   [[credits.card]]
-    id = 15
+    id = 14
     type = { name = "教養カード", subtype = "1 群", subsubtype = "1B" }
     name = "グロセイ"
     subject = [ "社会", "政経" ]
@@ -136,7 +125,7 @@
     description = [ "国際的な視点で政治・経済を考える" ]
 
   [[credits.card]]
-    id = 16
+    id = 15
     type = { name = "教養カード", subtype = "1 群", subsubtype = "1C" }
     name = "グロシャ"
     subject = [ "社会" ]
@@ -144,7 +133,7 @@
     description = [ "現代社会を批判的に考える" ]
 
   [[credits.card]]
-    id = 17
+    id = 16
     type = { name = "教養カード", subtype = "1 群", subsubtype = "1D" }
     name = "オーヨーリンリ"
     subject = [ "社会", "倫理" ]
@@ -152,7 +141,7 @@
     description = [ "倫理的課題を事例から分析する" ]
 
   [[credits.card]]
-    id = 18
+    id = 17
     type = { name = "教養カード", subtype = "1 群", subsubtype = "1E" }
     name = "チキューシステム"
     subject = [ "地学", "生物" ]
@@ -163,7 +152,7 @@
     description = [ "地球と生物の営みについて学ぶ" ]
 
   [[credits.card]]
-    id = 19
+    id = 18
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2A" }
     name = "テツガク"
     subject = [ "倫理" ]
@@ -174,7 +163,7 @@
     description = [ "私とは" ]
 
   [[credits.card]]
-    id = 20
+    id = 19
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2B" }
     name = "パソシン"
     subject = [ "社会", "倫理" ]
@@ -182,7 +171,7 @@
     description = [ "性格に関する理論と研究方法を学ぶ" ]
 
   [[credits.card]]
-    id = 21
+    id = 20
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2C" }
     name = "グロブン"
     subject = [ "国語" ]
@@ -193,7 +182,7 @@
     description = [ "文学を通して世界を知る" ]
 
   [[credits.card]]
-    id = 22
+    id = 21
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2D" }
     name = "ケンコーリテラシー"
     subject = [ "生物" ]
@@ -201,7 +190,7 @@
     description = [ "健康について考え実践する方法を学ぶ" ]
 
   [[credits.card]]
-    id = 23
+    id = 22
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2E" }
     name = "サイボー"
     subject = [ "生物" ]
@@ -209,7 +198,7 @@
     description = [ "細胞の構造と機能を学ぶ" ]
 
   [[credits.card]]
-    id = 25
+    id = 23
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
     name = "タイイクジツギ"
     subject = [ "体育" ]
@@ -222,8 +211,8 @@
     ]
     description = [ "スポーツやトレーニングを行う" ]
 
- [[credits.card]]
-    id = 26
+  [[credits.card]]
+    id = 24
     type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
     name = "タイイクガッシュク"
     subject = []
@@ -235,7 +224,7 @@
     description = [ "スポーツを短期集中で学ぶ" ]
 
   [[credits.card]]
-    id = 27
+    id = 25
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3B" }
     name = "クリシン"
     subject = [ "倫理" ]
@@ -246,7 +235,7 @@
     description = [ "批判的思考を身につける" ]
 
   [[credits.card]]
-    id = 28
+    id = 26
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3C" }
     name = "チカク ト チノー"
     subject = [ "社会", "倫理" ]
@@ -260,7 +249,7 @@
 
 
   [[credits.card]]
-    id = 29
+    id = 27
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "オンガクロン"
     subject = [ "音楽", "歴史" ]
@@ -269,7 +258,7 @@
     description = [ "音楽芸術を知り、楽しみ方を探る" ]
 
   [[credits.card]]
-    id = 30
+    id = 28
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "ビジュツロン"
     subject = [ "美術", "歴史" ]
@@ -278,7 +267,7 @@
     description = [ "水彩画制作を通して絵を知る" ]
 
   [[credits.card]]
-    id = 31
+    id = 29
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "タンキン"
     subject = [ "工芸" ]
@@ -290,7 +279,7 @@
     description = [ "丼鍋制作を通して金属工芸を知る" ]
 
   [[credits.card]]
-    id = 32
+    id = 30
     type = { name = "教養カード", subtype = "3 群", subsubtype = "3F" }
     name = "タイイクガク"
     subject = [ "保健" ]
@@ -298,7 +287,7 @@
     description = [ "健康教育学を学ぶ" ]
 
   [[credits.card]]
-    id = 33
+    id = 31
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4A" }
     name = "キンノト"
     subject = [ "社会", "地理", "歴史" ]
@@ -309,7 +298,7 @@
     description = [ "地元と世界の結びつきを知る" ]
 
   [[credits.card]]
-    id = 34
+    id = 32
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4B" }
     name = "ニッポン ノ ムカシ"
     subject = [ "社会", "地理", "歴史" ]
@@ -317,7 +306,7 @@
     description = [ "日本の歴史と文化の重要トピックを考える" ]
 
   [[credits.card]]
-    id = 35
+    id = 33
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4C" }
     name = "イブンカリカイ"
     subject = [ "社会", "地理", "倫理" ]
@@ -328,7 +317,7 @@
     description = [ "異文化間で対話を行う基礎力をつける" ]
 
   [[credits.card]]
-    id = 36
+    id = 34
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4D" }
     name = "タンキリューガク"
     subject = []
@@ -340,7 +329,7 @@
     description = [ "海外活動を通じて異文化に興味を持つ" ]
 
   [[credits.card]]
-    id = 37
+    id = 35
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4E" }
     name = "コッキョー ヲ コエテ"
     subject = [ "社会", "地理", "歴史" ]
@@ -348,7 +337,7 @@
     description = [ "国際的な課題と協力活動を考える" ]
 
   [[credits.card]]
-    id = 38
+    id = 36
     type = { name = "教養カード", subtype = "4 群", subsubtype = "4F" }
     name = "シャカイカダイカイケツ"
     subject = [ "社会", "地理", "倫理" ]
@@ -356,7 +345,7 @@
     description = [ "地域社会の課題と解決方法を考える" ]
 
   [[credits.card]]
-    id = 39
+    id = 37
     type = { name = "教養カード", subtype = "5 群", subsubtype = "5A" }
     name = "カガクテキシコーヒョウゲン"
     subject = [ "数学", "物理", "化学", "地学", "生物", "情報" ]
@@ -364,7 +353,7 @@
     description = [ "科学的な思考と表現を身につける" ]
 
   [[credits.card]]
-    id = 40
+    id = 38
     type = { name = "教養カード", subtype = "5 群", subsubtype = "5B" }
     name = "トウケイガク ニューモン"
     subject = [ "数学", "情報", "社会" ]
@@ -372,7 +361,7 @@
     description = [ "地域経済の分析を通して統計を知る" ]
 
   [[credits.card]]
-    id = 41
+    id = 39
     type = { name = "教養カード", subtype = "5 群", subsubtype = "5D" }
     name = "カンキョー ノ イマ ト ミライ"
     subject = [ "社会", "地学", "生物" ]
@@ -383,7 +372,7 @@
     description = [ "地球環境問題への意識を高める" ]
 
   [[credits.card]]
-    id = 42
+    id = 40
     type = { name = "教養カード", subtype = "5 群", subsubtype = "5E" }
     name = "シャカイホショーロン"
     subject = [ "社会", "政経" ]
@@ -396,7 +385,7 @@
     description = [ "社会保障のあり方を考える" ]
 
   [[credits.card]]
-    id = 43
+    id = 41
     type = { name = "教養カード", subtype = "5 群", subsubtype = "5F" }
     name = "ジンケン ト ジェンダー"
     subject = [ "社会", "倫理" ]
@@ -404,49 +393,73 @@
     description = [ "人権を意識した多文化共生を考える" ]
 
   [[credits.card]]
-    id = 44
+    id = 42
     type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
     name = "ブツリ ニューモン"
     subject = [ "物理" ]
+    effect = [ 
+      "このカードが自分の場に存在する場合、6A「バケガク ニューモン」の単位を取得することはできない。",
+    ]
     description = [ "物理の基礎を学ぶ" ]
 
   [[credits.card]]
-    id = 45
+    id = 43
     type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
     name = "バケガク ニューモン"
     subject = [ "化学" ]
+    effect = [ 
+      "このカードが自分の場に存在する場合、6A「ブツリ ニューモン」の単位を取得することはできない。",
+    ]
     description = [ "化学の基礎を学ぶ" ]
 
   [[credits.card]]
-    id = 46
+    id = 44
     type = { name = "教養カード", subtype = "6 群", subsubtype = "6B" }
     name = "ジンコーチノー"
     subject = [ "情報" ]
-    description = [ "人工知能の基礎を学ぶ" ]
+    condition = [ "第2クォーターの終了時まで出席コマを置くことはできない。" ]
+    effect = [ "成績フェイズ時: このカードを 6A, 6C, 6E のいずれかのカードと交換することができる。" ]
+    description = [ "(未定)" ]
+
+  [[credits.card]]
+    id = 45
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6C" }
+    name = "コンピューターサイエンス"
+    subject = [ "情報" ]
+    effect = [ "情報の教科カードをプレイしたとき、山札からカードを1枚引くことができる。" ]
+    description = [ "情報科学の基礎を幅広く学ぶ" ]
+
+  [[credits.card]]
+    id = 46
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6D" }
+    name = "デザインカガク"
+    subject = [ "美術" ]
+    condition = [ "第2クォーターの終了時まで出席コマを置くことはできない。" ]
+    effect = [ "成績フェイズ時: このカードを 6A, 6C, 6E のいずれかのカードと交換することができる。" ]
+    description = [ "(未定)" ]
 
   [[credits.card]]
     id = 47
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6C" }
-    name = ""
-    subject = [ "情報" ]
-    effect = [ "" ]
-
-  [[credits.card]]
-    id = 48
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6D" }
-    name = ""
-    subject = [ "美術" ]
-    effect = [ "" ]
-
-  [[credits.card]]
-    id = 49
     type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
     name = "ロンリガク ニューモン"
     subject = [ "数学" ]
+    effect = [ 
+      "このカードが自分の場に存在する場合、6E「スーガク ニューモン」の単位を取得することはできない。",
+    ]
     description = [ "論理学の基礎を学ぶ" ]
 
   [[credits.card]]
-    id = 50
+    id = 48
+    type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
+    name = "スーガク ニューモン"
+    subject = [ "数学" ]
+    effect = [
+      "このカードが自分の場に存在する場合、6E「ロンリガク ニューモン」の単位を取得することはできない。",
+    ]
+    description = [ "数学の活用事例を通して基礎を学ぶ" ]
+
+  [[credits.card]]
+    id = 49
     type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 1"
     subject = [ "二外" ]
@@ -457,7 +470,7 @@
     description = [ "第二外国語の文法を学ぶ" ]
 
   [[credits.card]]
-    id = 51
+    id = 50
     type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 2"
     subject = [ "二外" ]
@@ -468,7 +481,7 @@
     description = [ "第二外国語の文法を学ぶ" ]
 
   [[credits.card]]
-    id = 52
+    id = 51
     type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 3"
     subject = [ "二外" ]
@@ -479,7 +492,7 @@
     description = [ "第二外国語の文法を学ぶ" ]
 
   [[credits.card]]
-    id = 53
+    id = 52
     type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 4"
     subject = [ "二外" ]
@@ -490,7 +503,7 @@
     description = [ "第二外国語の文法を学ぶ" ]
 
   [[credits.card]]
-    id = 54
+    id = 53
     type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 1"
     subject = [ "二外" ]
@@ -501,7 +514,7 @@
     description = [ "第二外国語の会話を学ぶ" ]
 
   [[credits.card]]
-    id = 55
+    id = 54
     type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 2"
     subject = [ "二外" ]
@@ -512,7 +525,7 @@
     description = [ "第二外国語の会話を学ぶ" ]
 
   [[credits.card]]
-    id = 56
+    id = 55
     type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 3"
     subject = [ "二外" ]
@@ -523,7 +536,7 @@
     description = [ "第二外国語の会話を学ぶ" ]
 
   [[credits.card]]
-    id = 57
+    id = 56
     type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 4"
     subject = [ "二外" ]
@@ -534,14 +547,14 @@
     description = [ "第二外国語の会話を学ぶ" ]
 
   [[credits.card]]
-    id = 58
+    id = 57
     type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "ビセキブンガク 1"
     subject = [ "数学" ]
     description = [ "微積分学" ]
 
   [[credits.card]]
-    id = 59
+    id = 58
     type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "ビセキブンガク 2"
     subject = [ "数学" ]
@@ -549,14 +562,14 @@
     description = [ "微積分学" ]
 
   [[credits.card]]
-    id = 60
+    id = 59
     type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "センケーダイスー 1"
     subject = [ "数学" ]
     description = [ "線形代数学" ]
 
   [[credits.card]]
-    id = 61
+    id = 60
     type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "センケーダイスー 2"
     subject = [ "数学" ]
@@ -564,28 +577,28 @@
     description = [ "線形代数学" ]
 
   [[credits.card]]
-    id = 62
+    id = 61
     type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
     name = "ニュートンリキガク"
     subject = [ "物理" ]
     description = [ "(ニュートン力学?) 古典物理" ]
 
   [[credits.card]]
-    id = 63
+    id = 62
     type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
     name = "デンジキガク"
     subject = [ "物理" ]
     description = [ "電磁気学" ]
 
   [[credits.card]]
-    id = 64
+    id = 63
     type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
     name = "ムキ・ユウキ"
     subject = [ "化学" ]
     description = [ "無機化学・有機化学" ]
 
   [[credits.card]]
-    id = 65
+    id = 64
     type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
     name = "ブツリカガク"
     subject = [ "化学", "物理" ]
@@ -593,7 +606,7 @@
     description = [ "物理化学" ]
 
   [[credits.card]]
-    id = 66
+    id = 65
     type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
     name = "チキューブツリ"
     subject = [ "地学", "物理" ]
@@ -601,7 +614,7 @@
     description = [ "地球物理学・地質学・惑星科学?" ]
 
   [[credits.card]]
-    id = 67
+    id = 66
     type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
     name = "チキューカンキョー"
     subject = [ "地学", "生物" ]
