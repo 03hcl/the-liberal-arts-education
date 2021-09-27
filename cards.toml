@@ -2,7 +2,7 @@
 
   [[credits.card]]
     id = 1
-    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    card_type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
     name = "ダイシャロン"
     subject = []
     condition = [
@@ -19,7 +19,7 @@
 
   [[credits.card]]
     id = 2
-    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    card_type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
     name = "ジョーホーリテラシー"
     subject = [ "情報" ]
     condition = [
@@ -31,7 +31,7 @@
 
   [[credits.card]]
     id = 3
-    type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
+    card_type = { name = "必修カード", subtype = "必修", subsubtype = "必修" }
     name = "チホウガイロン"
     subject = [ "社会" ]
     condition = [
@@ -46,55 +46,55 @@
 
   [[credits.card]]
     id = 4
-    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    card_type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 1"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 5
-    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    card_type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 2"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 6
-    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    card_type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 3"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 7
-    type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
+    card_type = { name = "英語カード", subtype = "LR", subsubtype = "LR" }
     name = "Listening & Reading 4"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 8
-    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    card_type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 1"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 9
-    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    card_type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 2"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 10
-    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    card_type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 3"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 11
-    type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
+    card_type = { name = "英語カード", subtype = "SW", subsubtype = "SW" }
     name = "Speaking & Writing 4"
     subject = [ "英語" ]
 
   [[credits.card]]
     id = 12
-    type = { name = "英語認定カード", subtype = "英認", subsubtype = "英認" }
+    card_type = { name = "英語認定カード", subtype = "英認", subsubtype = "英認" }
     name = "LRSW ニンテイ"
     subject = []
     condition = [
@@ -109,7 +109,7 @@
 
   [[credits.card]]
     id = 13
-    type = { name = "教養カード", subtype = "1 群", subsubtype = "1A" }
+    card_type = { name = "教養カード", subtype = "1 群", subsubtype = "1A" }
     name = "レキシテキハッソー"
     subject = [ "社会", "地理", "歴史" ]
     effect = [ "授業フェイズ時: 自分のターンのプレイ直前に、手札から地理または歴史の教科カードを捨てることで、捨てた枚数分のカードを山札から引くことができる。" ]
@@ -117,7 +117,7 @@
 
   [[credits.card]]
     id = 14
-    type = { name = "教養カード", subtype = "1 群", subsubtype = "1B" }
+    card_type = { name = "教養カード", subtype = "1 群", subsubtype = "1B" }
     name = "グロセイ"
     subject = [ "社会", "政経" ]
     effect = [ "政経の教科カードで 1C, 4F に出席コマを置くことができる。" ]
@@ -125,7 +125,7 @@
 
   [[credits.card]]
     id = 15
-    type = { name = "教養カード", subtype = "1 群", subsubtype = "1C" }
+    card_type = { name = "教養カード", subtype = "1 群", subsubtype = "1C" }
     name = "グロシャ"
     subject = [ "社会" ]
     effect = [ "社会の教科カードをプレイしたとき、文系カードの山札からカードを1枚引くことができる。" ]
@@ -133,7 +133,7 @@
 
   [[credits.card]]
     id = 16
-    type = { name = "教養カード", subtype = "1 群", subsubtype = "1D" }
+    card_type = { name = "教養カード", subtype = "1 群", subsubtype = "1D" }
     name = "オーヨーリンリ"
     subject = [ "社会", "倫理" ]
     condition = [ "「自然科学」特殊カードでも出席コマを置くことができる。" ]
@@ -141,7 +141,7 @@
 
   [[credits.card]]
     id = 17
-    type = { name = "教養カード", subtype = "1 群", subsubtype = "1E" }
+    card_type = { name = "教養カード", subtype = "1 群", subsubtype = "1E" }
     name = "チキューシステム"
     subject = [ "地学", "生物" ]
     condition = [
@@ -152,7 +152,7 @@
 
   [[credits.card]]
     id = 18
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2A" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2A" }
     name = "テツガク"
     subject = [ "倫理" ]
     condition = [
@@ -163,7 +163,7 @@
 
   [[credits.card]]
     id = 19
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2B" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2B" }
     name = "パソシン"
     subject = [ "社会", "倫理" ]
     effect = [ "社会の教科カードで 2A に出席コマを置くことができる。" ]
@@ -171,9 +171,9 @@
 
   [[credits.card]]
     id = 20
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2C" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2C" }
     name = "グロブン"
-    subject = [ "国語" ]
+    subject = [ "国語", "英語", "二外" ]
     effect = [
       "このカードを自分の場に出すとき、自分の場の他の単位カードを1枚選び、そのカードのすぐ下に重ねて置く。",
       "重ねている単位カードの効果を2倍にできる。",
@@ -182,7 +182,7 @@
 
   [[credits.card]]
     id = 21
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2D" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2D" }
     name = "ケンコーリテラシー"
     subject = [ "生物" ]
     effect = [ "「絶起」の効果を無効化できる。" ]
@@ -190,7 +190,7 @@
 
   [[credits.card]]
     id = 22
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2E" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2E" }
     name = "サイボー"
     subject = [ "生物" ]
     effect = [ "教科カードで 1E に出席コマを置くとき、さらに1個追加で置くことができる。" ]
@@ -198,7 +198,7 @@
 
   [[credits.card]]
     id = 23
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
     name = "タイイクジツギ"
     subject = [ "体育" ]
     condition = [ "C以上の各評価に必要な出席コマの枚数がそれぞれ3枚ずつ減少する。" ]
@@ -212,7 +212,7 @@
 
   [[credits.card]]
     id = 24
-    type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
+    card_type = { name = "教養カード", subtype = "2 群", subsubtype = "2F" }
     name = "タイイクガッシュク"
     subject = []
     condition = [ "「集中講義」カードの効果でのみ出席コマを置くことができ、上限解放マークの影響を受けない。" ]
@@ -224,7 +224,7 @@
 
   [[credits.card]]
     id = 25
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3B" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3B" }
     name = "クリシン"
     subject = [ "倫理" ]
     effect = [
@@ -235,7 +235,7 @@
 
   [[credits.card]]
     id = 26
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3C" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3C" }
     name = "チカク ト チノー"
     subject = [ "社会", "倫理" ]
     condition = [ "「自然科学」特殊カードでも出席コマを置くことができる。" ]
@@ -249,7 +249,7 @@
 
   [[credits.card]]
     id = 27
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "オンガクロン"
     subject = [ "音楽", "歴史" ]
     condition = [ "歴史の教科カードを使って出席コマを置く場合、赤出席コマになる。" ]
@@ -258,7 +258,7 @@
 
   [[credits.card]]
     id = 28
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "ビジュツロン"
     subject = [ "美術", "歴史" ]
     condition = [ "歴史の教科カードを使って出席コマを置く場合、赤出席コマになる。" ]
@@ -267,7 +267,7 @@
 
   [[credits.card]]
     id = 29
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3E" }
     name = "タンキン"
     subject = [ "工芸" ]
     effect = [
@@ -279,7 +279,7 @@
 
   [[credits.card]]
     id = 30
-    type = { name = "教養カード", subtype = "3 群", subsubtype = "3F" }
+    card_type = { name = "教養カード", subtype = "3 群", subsubtype = "3F" }
     name = "タイイクガク"
     subject = [ "保健" ]
     condition = [ "体育の教科カードを使って出席コマを置く場合、赤出席コマになる。" ]
@@ -288,7 +288,7 @@
 
   [[credits.card]]
     id = 31
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4A" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4A" }
     name = "キンノト"
     subject = [ "社会", "地理", "歴史" ]
     effect = [
@@ -299,7 +299,7 @@
 
   [[credits.card]]
     id = 32
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4B" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4B" }
     name = "ニッポン ノ ムカシ"
     subject = [ "社会", "地理", "歴史" ]
     effect = [ "成績フェイズ時: フェイズの開始直後に 1A または 4A のどちらかに出席コマを2個まで置くことができる。" ]
@@ -307,7 +307,7 @@
 
   [[credits.card]]
     id = 33
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4C" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4C" }
     name = "イブンカリカイ"
     subject = [ "社会", "地理", "倫理" ]
     effect = [
@@ -318,7 +318,7 @@
 
   [[credits.card]]
     id = 34
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4D" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4D" }
     name = "タンキリューガク"
     subject = []
     condition = [
@@ -330,7 +330,7 @@
 
   [[credits.card]]
     id = 35
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4E" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4E" }
     name = "コッキョー ヲ コエテ"
     subject = [ "社会", "地理", "歴史" ]
     effect = [ "1B, 1C, 2C, 4E, 4F のいずれかの単位を獲得した場合、山札からカードを2枚引くことができる。(このカードの獲得に対しても適用される)" ]
@@ -338,15 +338,15 @@
 
   [[credits.card]]
     id = 36
-    type = { name = "教養カード", subtype = "4 群", subsubtype = "4F" }
+    card_type = { name = "教養カード", subtype = "4 群", subsubtype = "4F" }
     name = "シャカイカダイカイケツ"
-    subject = [ "社会", "地理", "倫理" ]
+    subject = [ "社会", "地理", "政経", "倫理" ]
     effect = [ "「チホウガイロン」マスにおいて、C以上の各評価に必要な出席コマの枚数がそれぞれ2枚ずつ減少する。" ]
     description = [ "地域社会の課題と解決方法を考える" ]
 
   [[credits.card]]
     id = 37
-    type = { name = "教養カード", subtype = "5 群", subsubtype = "5A" }
+    card_type = { name = "教養カード", subtype = "5 群", subsubtype = "5A" }
     name = "カガクテキシコーヒョウゲン"
     subject = [ "数学", "物理", "化学", "地学", "生物", "情報" ]
     effect = [ "このカードを取得したとき、理系カードの山札からカードを2枚引くことができる。" ]
@@ -354,7 +354,7 @@
 
   [[credits.card]]
     id = 38
-    type = { name = "教養カード", subtype = "5 群", subsubtype = "5B" }
+    card_type = { name = "教養カード", subtype = "5 群", subsubtype = "5B" }
     name = "トウケイガク ニューモン"
     subject = [ "数学", "情報", "社会" ]
     effect = [ "数学の教科カードで 4F に出席コマを置くことができる。" ]
@@ -362,7 +362,7 @@
 
   [[credits.card]]
     id = 39
-    type = { name = "教養カード", subtype = "5 群", subsubtype = "5D" }
+    card_type = { name = "教養カード", subtype = "5 群", subsubtype = "5D" }
     name = "カンキョー ノ イマ ト ミライ"
     subject = [ "社会", "地学", "生物" ]
     effect = [
@@ -373,7 +373,7 @@
 
   [[credits.card]]
     id = 40
-    type = { name = "教養カード", subtype = "5 群", subsubtype = "5E" }
+    card_type = { name = "教養カード", subtype = "5 群", subsubtype = "5E" }
     name = "シャカイホショーロン"
     subject = [ "社会", "倫理", "政経" ]
     condition = [ "倫理の教科カードを使って出席コマを置く場合、赤出席コマになる。" ]
@@ -386,7 +386,7 @@
 
   [[credits.card]]
     id = 41
-    type = { name = "教養カード", subtype = "5 群", subsubtype = "5F" }
+    card_type = { name = "教養カード", subtype = "5 群", subsubtype = "5F" }
     name = "ジンケン ト ジェンダー"
     subject = [ "社会", "倫理" ]
     effect = [ "4群・5群のマスに対して政経または倫理の教科カードをプレイしたとき、山札からカードを1枚引くことができる。" ]
@@ -394,7 +394,7 @@
 
   [[credits.card]]
     id = 42
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
     name = "ブツリ ニューモン"
     subject = [ "物理" ]
     effect = [ 
@@ -404,7 +404,7 @@
 
   [[credits.card]]
     id = 43
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6A" }
     name = "バケガク ニューモン"
     subject = [ "化学" ]
     effect = [ 
@@ -414,7 +414,7 @@
 
   [[credits.card]]
     id = 44
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6B" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6B" }
     name = "ジンコーチノー"
     subject = [ "情報" ]
     condition = [ "第2クォーターの終了時まで出席コマを置くことはできない。" ]
@@ -423,7 +423,7 @@
 
   [[credits.card]]
     id = 45
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6C" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6C" }
     name = "コンピューターサイエンス"
     subject = [ "情報" ]
     effect = [ "情報の教科カードをプレイしたとき、山札からカードを1枚引くことができる。" ]
@@ -431,7 +431,7 @@
 
   [[credits.card]]
     id = 46
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6D" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6D" }
     name = "デザインカガク"
     subject = [ "美術" ]
     condition = [ "第2クォーターの終了時まで出席コマを置くことはできない。" ]
@@ -440,7 +440,7 @@
 
   [[credits.card]]
     id = 47
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
     name = "ロンリガク ニューモン"
     subject = [ "数学" ]
     effect = [ 
@@ -450,7 +450,7 @@
 
   [[credits.card]]
     id = 48
-    type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
+    card_type = { name = "教養カード", subtype = "6 群", subsubtype = "6E" }
     name = "スーガク ニューモン"
     subject = [ "数学" ]
     effect = [
@@ -460,7 +460,7 @@
 
   [[credits.card]]
     id = 49
-    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 1"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -468,7 +468,7 @@
 
   [[credits.card]]
     id = 50
-    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 2"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -476,7 +476,7 @@
 
   [[credits.card]]
     id = 51
-    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 3"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -484,7 +484,7 @@
 
   [[credits.card]]
     id = 52
-    type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "文法", subsubtype = "二外" }
     name = "ニガイブンポー 4"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイブンポー」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -492,7 +492,7 @@
 
   [[credits.card]]
     id = 53
-    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 1"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -500,7 +500,7 @@
 
   [[credits.card]]
     id = 54
-    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 2"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -508,7 +508,7 @@
 
   [[credits.card]]
     id = 55
-    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 3"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -516,7 +516,7 @@
 
   [[credits.card]]
     id = 56
-    type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
+    card_type = { name = "第二外国語カード", subtype = "会話", subsubtype = "二外" }
     name = "ニガイカイワ 4"
     subject = [ "二外" ]
     effect = [ "二外の教科カードで「ニガイカイワ」マスに出席コマを置く場合、1コマ追加で置くことができる。(この効果は重複する)" ]
@@ -524,14 +524,14 @@
 
   [[credits.card]]
     id = 57
-    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    card_type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "ビセキブンガク 1"
     subject = [ "数学" ]
     description = [ "微積分学" ]
 
   [[credits.card]]
     id = 58
-    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    card_type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "ビセキブンガク 2"
     subject = [ "数学" ]
     condition = [ "「ビセキブンガク 1」カードを取得していない限り出席コマを置くことはできない。" ]
@@ -539,14 +539,14 @@
 
   [[credits.card]]
     id = 59
-    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    card_type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "センケーダイスー 1"
     subject = [ "数学" ]
     description = [ "線形代数学" ]
 
   [[credits.card]]
     id = 60
-    type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
+    card_type = { name = "科学基礎カード", subtype = "数学", subsubtype = "数学" }
     name = "センケーダイスー 2"
     subject = [ "数学" ]
     condition = [ "「センケーダイスー 1」カードを取得していない限り出席コマを置くことはできない。" ]
@@ -554,28 +554,28 @@
 
   [[credits.card]]
     id = 61
-    type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
+    card_type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
     name = "ニュートンリキガク"
     subject = [ "物理" ]
     description = [ "(ニュートン力学?) 古典物理" ]
 
   [[credits.card]]
     id = 62
-    type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
+    card_type = { name = "科学基礎カード", subtype = "物理", subsubtype = "物理" }
     name = "デンジキガク"
     subject = [ "物理" ]
     description = [ "電磁気学" ]
 
   [[credits.card]]
     id = 63
-    type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
+    card_type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
     name = "ムキ・ユウキ"
     subject = [ "化学" ]
     description = [ "無機化学・有機化学" ]
 
   [[credits.card]]
     id = 64
-    type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
+    card_type = { name = "科学基礎カード", subtype = "化学", subsubtype = "化学" }
     name = "ブツリカガク"
     subject = [ "化学", "物理" ]
     condition = [ "物理の教科カードで一度に2個以上出席コマを置く場合、1個を除いて赤出席コマになる。" ]
@@ -583,7 +583,7 @@
 
   [[credits.card]]
     id = 65
-    type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
+    card_type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
     name = "チキューブツリ"
     subject = [ "地学", "物理" ]
     condition = [ "物理の教科カードで一度に2個以上出席コマを置く場合、1個を除いて赤出席コマになる。" ]
@@ -591,7 +591,7 @@
 
   [[credits.card]]
     id = 66
-    type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
+    card_type = { name = "科学基礎カード", subtype = "地学", subsubtype = "地学" }
     name = "チキューカンキョー"
     subject = [ "地学", "生物" ]
     condition = [ "生物の教科カードで一度に2個以上出席コマを置く場合、1個を除いて赤出席コマになる。" ]
@@ -601,7 +601,8 @@
 
   [[actions.card]]
     id = 1
-    type = { name = "教科カード", subject = "数学" }
+    card_type = "教科カード"
+    subject = "数学"
     name = "授業に出席"
     numbers_in_rikei = 8
     effect = [
@@ -611,7 +612,8 @@
 
   [[actions.card]]
     id = 2
-    type = { name = "教科カード", subject = "物理" }
+    card_type = "教科カード"
+    subject = "物理"
     name = "授業に出席"
     numbers_in_rikei = 5
     effect = [
@@ -621,7 +623,8 @@
 
   [[actions.card]]
     id = 3
-    type = { name = "教科カード", subject = "化学" }
+    card_type = "教科カード"
+    subject = "化学"
     name = "授業に出席"
     numbers_in_rikei = 5
     numbers_in_bunkei = 0
@@ -632,7 +635,8 @@
 
   [[actions.card]]
     id = 4
-    type = { name = "教科カード", subject = "地学" }
+    card_type = "教科カード"
+    subject = "地学"
     name = "授業に出席"
     numbers_in_rikei = 5
     numbers_in_bunkei = 0
@@ -640,7 +644,8 @@
 
   [[actions.card]]
     id = 5
-    type = { name = "教科カード", subject = "生物" }
+    card_type = "教科カード"
+    subject = "生物"
     name = "授業に出席"
     numbers_in_rikei = 5
     numbers_in_bunkei = 0
@@ -648,7 +653,8 @@
 
   [[actions.card]]
     id = 6
-    type = { name = "教科カード", subject = "情報" }
+    card_type = "教科カード"
+    subject = "情報"
     name = "授業に出席"
     numbers_in_rikei = 5
     numbers_in_bunkei = 0
@@ -656,7 +662,8 @@
 
   [[actions.card]]
     id = 7
-    type = { name = "教科カード", subject = "英語" }
+    card_type = "教科カード"
+    subject = "英語"
     name = "授業に出席"
     numbers_in_rikei = 10
     numbers_in_bunkei = 10
@@ -667,7 +674,8 @@
 
   [[actions.card]]
     id = 8
-    type = { name = "教科カード", subject = "国語" }
+    card_type = "教科カード"
+    subject = "国語"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 5
@@ -675,7 +683,8 @@
 
   [[actions.card]]
     id = 9
-    type = { name = "教科カード", subject = "社会" }
+    card_type = "教科カード"
+    subject = "社会"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 5
@@ -683,7 +692,8 @@
 
   [[actions.card]]
     id = 10
-    type = { name = "教科カード", subject = "歴史" }
+    card_type = "教科カード"
+    subject = "歴史"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -691,7 +701,8 @@
 
   [[actions.card]]
     id = 11
-    type = { name = "教科カード", subject = "地理" }
+    card_type = "教科カード"
+    subject = "地理"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -699,7 +710,8 @@
 
   [[actions.card]]
     id = 12
-    type = { name = "教科カード", subject = "倫理" }
+    card_type = "教科カード"
+    subject = "倫理"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -707,23 +719,17 @@
 
   [[actions.card]]
     id = 13
-    type = { name = "教科カード", subject = "政経" }
+    card_type = "教科カード"
+    subject = "政経"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
     effect = [ "政経 +2" ]
 
   [[actions.card]]
-    id = 14
-    type = { name = "教科カード", subject = "総合" }
-    name = "授業に出席"
-    numbers_in_rikei = 0
-    numbers_in_bunkei = 0
-    effect = [ "総合 +1" ]
-
-  [[actions.card]]
     id = 15
-    type = { name = "教科カード", subject = "音楽" }
+    card_type = "教科カード"
+    subject = "音楽"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -731,7 +737,8 @@
 
   [[actions.card]]
     id = 16
-    type = { name = "教科カード", subject = "美術" }
+    card_type = "教科カード"
+    subject = "美術"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -739,7 +746,8 @@
 
   [[actions.card]]
     id = 17
-    type = { name = "教科カード", subject = "工芸" }
+    card_type = "教科カード"
+    subject = "工芸"
     name = "授業に出席"
     numbers_in_rikei = 0
     numbers_in_bunkei = 2
@@ -747,7 +755,8 @@
 
   [[actions.card]]
     id = 18
-    type = { name = "教科カード", subject = "体育" }
+    card_type = "教科カード"
+    subject = "体育"
     name = "授業に出席"
     numbers_in_rikei = 4
     numbers_in_bunkei = 4
@@ -755,23 +764,17 @@
 
   [[actions.card]]
     id = 19
-    type = { name = "教科カード", subject = "保健" }
+    card_type = "教科カード"
+    subject = "保健"
     name = "授業に出席"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
     effect = [ "保健 +2" ]
 
   [[actions.card]]
-    id = 20
-    type = { name = "教科カード", subject = "家庭" }
-    name = "授業に出席"
-    numbers_in_rikei = 0
-    numbers_in_bunkei = 0
-    effect = [ "家庭 +2" ]
-
-  [[actions.card]]
     id = 21
-    type = { name = "教科カード", subject = "数学" }
+    card_type = "教科カード"
+    subject = "数学"
     name = "課題を提出"
     numbers_in_rikei = 6
     numbers_in_bunkei = 0
@@ -783,7 +786,8 @@
 
   [[actions.card]]
     id = 22
-    type = { name = "教科カード", subject = "物理" }
+    card_type = "教科カード"
+    subject = "物理"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -795,7 +799,8 @@
 
   [[actions.card]]
     id = 23
-    type = { name = "教科カード", subject = "化学" }
+    card_type = "教科カード"
+    subject = "化学"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -807,7 +812,8 @@
 
   [[actions.card]]
     id = 24
-    type = { name = "教科カード", subject = "地学" }
+    card_type = "教科カード"
+    subject = "地学"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -816,7 +822,8 @@
 
   [[actions.card]]
     id = 25
-    type = { name = "教科カード", subject = "生物" }
+    card_type = "教科カード"
+    subject = "生物"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -825,7 +832,8 @@
 
   [[actions.card]]
     id = 26
-    type = { name = "教科カード", subject = "情報" }
+    card_type = "教科カード"
+    subject = "情報"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -834,7 +842,8 @@
 
   [[actions.card]]
     id = 27
-    type = { name = "教科カード", subject = "英語" }
+    card_type = "教科カード"
+    subject = "英語"
     name = "課題を提出"
     numbers_in_rikei = 4
     numbers_in_bunkei = 4
@@ -846,7 +855,8 @@
 
   [[actions.card]]
     id = 28
-    type = { name = "教科カード", subject = "国語" }
+    card_type = "教科カード"
+    subject = "国語"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -855,7 +865,8 @@
 
   [[actions.card]]
     id = 29
-    type = { name = "教科カード", subject = "社会" }
+    card_type = "教科カード"
+    subject = "社会"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 4
@@ -864,7 +875,8 @@
 
   [[actions.card]]
     id = 30
-    type = { name = "教科カード", subject = "歴史" }
+    card_type = "教科カード"
+    subject = "歴史"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 2
@@ -873,7 +885,8 @@
 
   [[actions.card]]
     id = 31
-    type = { name = "教科カード", subject = "地理" }
+    card_type = "教科カード"
+    subject = "地理"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 2
@@ -882,7 +895,8 @@
 
   [[actions.card]]
     id = 32
-    type = { name = "教科カード", subject = "倫理" }
+    card_type = "教科カード"
+    subject = "倫理"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 2
@@ -891,7 +905,8 @@
 
   [[actions.card]]
     id = 33
-    type = { name = "教科カード", subject = "政経" }
+    card_type = "教科カード"
+    subject = "政経"
     name = "課題を提出"
     numbers_in_rikei = 0
     numbers_in_bunkei = 2
@@ -900,7 +915,8 @@
 
   [[actions.card]]
     id = 34
-    type = { name = "教科カード", subject = "保健" }
+    card_type = "教科カード"
+    subject = "保健"
     name = "課題を提出"
     numbers_in_rikei = 2
     numbers_in_bunkei = 0
@@ -909,7 +925,7 @@
 
   [[actions.card]]
     id = 101
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "ヤマ勘"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -919,7 +935,7 @@
 
   [[actions.card]]
     id = 102
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "成績疑義"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -933,7 +949,7 @@
 
   [[actions.card]]
     id = 103
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "自然科学"
     numbers_in_rikei = 4
     numbers_in_bunkei = 0
@@ -942,7 +958,7 @@
 
   [[actions.card]]
     id = 104
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "急な出欠確認"
     numbers_in_rikei = 4
     numbers_in_bunkei = 4
@@ -956,7 +972,7 @@
 
   [[actions.card]]
     id = 105
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "猛勉強"
     numbers_in_rikei = 3
     numbers_in_bunkei = 2
@@ -967,7 +983,7 @@
 
   [[actions.card]]
     id = 106
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "過去問収集"
     numbers_in_rikei = 2
     numbers_in_bunkei = 1
@@ -981,7 +997,7 @@
 
   [[actions.card]]
     id = 107
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "過去問交換"
     numbers_in_rikei = 3
     numbers_in_bunkei = 3
@@ -993,7 +1009,7 @@
 
   [[actions.card]]
     id = 108
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "勉強"
     numbers_in_rikei = 5
     numbers_in_bunkei = 4
@@ -1005,7 +1021,7 @@
 
   [[actions.card]]
     id = 109
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "友達ネットワーク"
     numbers_in_rikei = 1
     numbers_in_bunkei = 2
@@ -1017,7 +1033,7 @@
 
   [[actions.card]]
     id = 110
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "陰キャ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 1
@@ -1029,7 +1045,7 @@
 
   [[actions.card]]
     id = 201
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "バイト"
     numbers_in_rikei = 2
     numbers_in_bunkei = 4
@@ -1038,7 +1054,7 @@
 
   [[actions.card]]
     id = 202
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "絶起 (寝ブッチ?)"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1051,7 +1067,7 @@
 
   [[actions.card]]
     id = 203
-    type = { name = "インチキカード" }
+    card_type = "インチキカード"
     name = "ピ逃げ"
     numbers_in_rikei = 4
     numbers_in_bunkei = 4
@@ -1064,7 +1080,7 @@
 
   [[actions.card]]
     id = 203
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "課題忘れ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1076,7 +1092,7 @@
 
   [[actions.card]]
     id = 204
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "学生証忘れ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1089,7 +1105,7 @@
 
   [[actions.card]]
     id = 205
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "諦めて寝る"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1102,7 +1118,7 @@
 
   [[actions.card]]
     id = 302
-    type = { name = "インチキカード" }
+    card_type = "インチキカード"
     name = "カンペ"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1113,7 +1129,7 @@
 
   [[actions.card]]
     id = 401
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "(ボツカード)"
     numbers_in_rikei = 0
     numbers_in_bunkei = 0
@@ -1125,7 +1141,7 @@
 
   [[actions.card]]
     id = 402
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "剽窃チェック"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1137,7 +1153,7 @@
 
   [[actions.card]]
     id = 403
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "チクる"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1146,7 +1162,7 @@
 
   [[actions.card]]
     id = 1001
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "留学"
     numbers_in_rikei = 1
     numbers_in_bunkei = 2
@@ -1157,7 +1173,7 @@
 
   [[actions.card]]
     id = 1002
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "パンデミック"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1168,7 +1184,7 @@
 
   [[actions.card]]
     id = 1003
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "博物館見学"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1181,7 +1197,7 @@
 
   [[actions.card]]
     id = 111
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "鍛金1"
     numbers_in_rikei = 0
     numbers_in_bunkei = 1
@@ -1194,7 +1210,7 @@
 
   [[actions.card]]
     id = 112
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "鍛金2"
     numbers_in_rikei = 1
     numbers_in_bunkei = 0
@@ -1204,7 +1220,7 @@
 
   [[actions.card]]
     id = 206
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "履修抽選漏れ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1217,7 +1233,7 @@
 
   [[actions.card]]
     id = 117
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "履修修正"
     numbers_in_rikei = 3
     numbers_in_bunkei = 3
@@ -1229,7 +1245,7 @@
 
   [[actions.card]]
     id = 113
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "意識高い系"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1242,7 +1258,7 @@
 
   [[actions.card]]
     id = 114
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "国際交流"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1254,7 +1270,7 @@
 
   [[actions.card]]
     id = 115
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "徒歩登学"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1266,7 +1282,7 @@
 
   [[actions.card]]
     id = 116
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "自転車登学"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1278,7 +1294,7 @@
 
   [[actions.card]]
     id = 207
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "遅刻"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1290,7 +1306,7 @@
 
   [[actions.card]]
     id = 117
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "魔剤"
     numbers_in_rikei = 3
     numbers_in_bunkei = 3
@@ -1303,7 +1319,7 @@
 
   [[actions.card]]
     id = 118
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "大学祭"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1315,7 +1331,7 @@
 
   [[actions.card]]
     id = 208
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "大雪"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1328,7 +1344,7 @@
 
   [[actions.card]]
     id = 209
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "クマ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1338,7 +1354,7 @@
 
   [[actions.card]]
     id = 303
-    type = { name = "インチキカード" }
+    card_type = "インチキカード"
     name = "コピペ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1352,7 +1368,7 @@
 
   [[actions.card]]
     id = 210
-    type = { name = "トラブルカード" }
+    card_type = "トラブルカード"
     name = "バス遅れ"
     numbers_in_rikei = 2
     numbers_in_bunkei = 2
@@ -1362,7 +1378,7 @@
 
   [[actions.card]]
     id = 119
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "遠隔授業"
     numbers_in_rikei = 3
     numbers_in_bunkei = 3
@@ -1374,7 +1390,7 @@
 
   [[actions.card]]
     id = 120
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "集中講義"
     numbers_in_rikei = 1
     numbers_in_bunkei = 1
@@ -1387,7 +1403,7 @@
 
   [[actions.card]]
     id = 121
-    type = { name = "特殊カード" }
+    card_type = "特殊カード"
     name = "追加課題"
     numbers_in_rikei = 3
     numbers_in_bunkei = 3
