@@ -1,6 +1,7 @@
+use serde::{Deserialize, Serialize};
 use crate::raw_card::{Actions, Card};
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq, Deserialize, Serialize)]
 pub enum CardType {
   ActionSubject(Subject),
   ActionEffect,
@@ -21,7 +22,7 @@ impl CardType {
   }
 }
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq, Deserialize, Serialize)]
 pub enum Subject {
   Math,
   Physics,
@@ -77,7 +78,7 @@ impl Subject {
   }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct ActionCard {
   pub id: i32,
   pub subject: Subject,
@@ -113,7 +114,10 @@ fn clone_or_default_option_vectors<T: Clone>(vec: &Option<Vec<T>>) -> Vec<T> {
 }
 
 impl Actions {
-  pub fn format(&self) -> Vec<ActionCard> {
-    self.card.iter().map(|c| ActionCard::from_raw(c).unwrap()).collect()
+  pub fn get_action_subjects(&self) -> Vec<ActionCard> {
+    self.card.iter()
+      .filter(|&card| match CardType::from_raw(&card).unwrap() { CardType::ActionSubject(_) => true, _ => false})
+      .map(|c| ActionCard::from_raw(&c).unwrap())
+      .collect::<Vec<_>>()
   }
 }
